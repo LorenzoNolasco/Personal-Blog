@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/form.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Submit Blog Post</title>
-</head>
-<body>
-
-
-    <header>Light/Dark theme switch</header>
-
-    <section>
-        userName
-        email
-        textPost
-    </section>
-
+  </head>
+  <body>
+    Username: <input type="text" name="Username" id="userName" /> <br />
+    Email: <input type="text" name="Email" id="userEmail" /> <br />
+    Post: <input type="text" name="UserPost" id="userPost" /> <br />
+    <button onclick="recordUserInput(event)">Submit</button>
     <script src="assets/js/form.js"></script>
-</body>
+  </body>
 </html>
