@@ -8,10 +8,14 @@
     <title>Submit Blog Post</title>
   </head>
   <body>
-    Username: <input type="text" name="Username" id="userName" /> <br />
-    Email: <input type="text" name="Email" id="userEmail" /> <br />
-    Post: <input type="text" name="UserPost" id="userPost" /> <br />
-    <button onclick="recordUserInput(event)">Submit</button>
+    <div id="userPosts">
+      Username: <input type="text" name="Username" id="userName" /> <br />
+      Email: <input type="text" name="Email" id="userEmail" /> <br />
+      Post: <input type="text" name="UserPost" id="userPost" /> <br />
+      <button type="submit" id="submit-Btn">Submit</button>
+    </div>
+
     <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
   </body>
 </html>
